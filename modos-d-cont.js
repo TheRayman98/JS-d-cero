@@ -73,7 +73,7 @@ console.log(personas);
 
 //arrelgo frutas
 
-let frutas = ['Papaya', 'Papaya', 'Naranja', 'Mandarina', 'Guayaba', 'Toronja', 'Sandia', 'Pera'];
+let frutas = ['Papaya', 'Papaya', 'Naranja', 'Mandarina', 'Guayaba', 'Toronja', 'Sandia', 'Pera','Papaya', 'Papaya', 'Naranja', 'Mandarina', 'Guayaba', 'Toronja', 'Sandia', 'Pera'];
 console.log('akiempieza');
 
 let frutprc = {};
