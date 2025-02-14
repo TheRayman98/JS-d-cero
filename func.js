@@ -73,4 +73,5 @@ agregarLibro("Mein Kampf");
 agregarLibro("El libro vaquero");
 agregarLibro("La muerte de un risueñor");
 agregarLibro("El baldor: Álgebra");
+agregarLibro("El viejo y la mar");
 mostrarLibLei();
