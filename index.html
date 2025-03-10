@@ -10,5 +10,60 @@
 
 
     <script src="tipos-de-dato.js"></script>
+
+    <h1>Mi lista de Compras</h1>
+
+    <div id="input-container">
+        <input type="text" id="producto" placeholder="Añade un producto...">
+        <button id="Agregar">Agregar</button>
+
+    </div>
+    <ul id="lista-compras">
+
+    </ul>
+    <h1 id="titulo">Hola, mundo    </h1>
+    <!--Selección de DOM mediante ID-->
+    <button onclick="cambiarTexto()"> Cambiar texto</button>
+
+    <!--Selección de DOM mediante class-->
+    <p class="texto">Este es el primer parrafo</p>
+    <p class="texto">Este es el segundo parrafo</p>
+    <p class="texto">Este es el tercer parrafo</p>
+    <button onclick="cambiarColor()">Cambiar color</button>
+
+    <!--Selección de DOM mediante etiqueta-->
+
+        <p>Este es el primer parrafo</p>
+        <p>Este es el segundo parrafo</p>
+        <p>Este es el tercer parrafo</p>
+
+        <button onclick="ocultarParrafo()">Oculta el segundo parrafo</button>
+
+    <!--usando query selector-->
+
+    <div>
+        <p> Mi perro se llama milaneso</p>    
+    </div>
+    <p> Mi gato se llama mantequilla</p>
+    <button onclick="cambiarTextoDiv()">Cambiar texto de Div</button>
+
+    <!--Usando querySelectorAll-->
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+    </ul>
+    <button onclick="marcarItems()">Marcar Items</button>
+
+
+    <button onclick="redirectToObjetos()">ir a objetos</button>
+
+    <script>
+        function redirectToObjetos() {
+            window.location.href = 'objetos.html';
+        }
+    </script>
+
+    <script src="main.js"></script>
 </body>
 </html>
