@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de Contraseñas</title>
+    <link rel="stylesheet" href="generador-contrasenas.css">
+</head>
+<body>
+    <div class="generador">
+        <div class="pass-cont">
+            <h1>Generador de contraseñas</h1>
+            <h1 class="password-cont"></h1> <!-- Aquí se mostrará la contraseña generada -->
+        </div>
+
+        <form id="password-form">
+            <label for="inp-pass-length">Seleccione la longitud de la contraseña</label>
+            <div class="range-cont">
+                <input type="range" id="inp-pass-length" min="1" max="20" value="8">
+                <h1>8</h1>
+            </div>
+            
+            <div class="options">
+                <label>
+                    <input type="checkbox" id="inp-uppercase"> Mayúsculas
+                </label>
+                <label>
+                    <input type="checkbox" id="inp-lowercase"> Minúsculas
+                </label>
+                <label>
+                    <input type="checkbox" id="inp-numbers"> Números
+                </label>
+                <label>
+                    <input type="checkbox" id="inp-symbols"> Símbolos
+                </label>
+            </div>
+
+            <button type="submit" class="generate-btn">Generar contraseña</button>
+        </form>
+    </div>
+    <script src="generador-contrasenas.js"></script>
+</body>
+</html>
